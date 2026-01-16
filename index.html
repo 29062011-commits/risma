@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMANDA ONLINE SHOPE SUNGAI APIT</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#020617;
+    color:#e5e7eb;
+}
+
+/* HEADER */
+header{
+    background:linear-gradient(90deg,#1e3a8a,#2563eb);
+    padding:30px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:32px;
+    letter-spacing:2px;
+}
+
+header p{
+    font-size:14px;
+    opacity:0.85;
+}
+
+/* NAV */
+nav{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    background:#020617;
+    padding:12px;
+    border-bottom:1px solid #1e293b;
+}
+
+nav a{
+    color:#93c5fd;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffffff;
+}
+
+/* SECTION */
+section{
+    padding:50px 20px;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* OWNER */
+.owner{
+    display:flex;
+    justify-content:center;
+}
+
+.owner img{
+    width:190px;
+    height:190px;
+    border-radius:50%;
+    border:4px solid #2563eb;
+    box-shadow:0 0 25px #2563eb;
+}
+
+/* PRODUK */
+.produk{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#020617;
+    padding:15px;
+    border-radius:15px;
+    border:1px solid #1e293b;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 0 20px #2563eb66;
+}
+
+.card img{
+    width:100%;
+    border-radius:12px;
+}
+
+.card h3{
+    margin-top:12px;
+}
+
+.card p{
+    font-size:14px;
+    opacity:0.85;
+    margin:6px 0;
+}
+
+.card span{
+    display:block;
+    margin:8px 0;
+    font-weight:bold;
+    color:#60a5fa;
+}
+
+.card a{
+    display:block;
+    text-align:center;
+    background:#22c55e;
+    color:#000;
+    padding:10px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* SOSIAL */
+.sosial{
+    background:#020617;
+    padding:25px;
+    border-radius:15px;
+    border:1px solid #1e293b;
+}
+
+.sosial a{
+    display:block;
+    margin:12px 0;
+    color:#93c5fd;
+    text-decoration:none;
+    font-size:16px;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#020617;
+    border-top:1px solid #1e293b;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>AMANDA ONLINE SHOPE SUNGAI APIT</h1>
+    <p>Belanja Mudah • Cepat • Aman</p>
+</header>
+
+<nav>
+    <a href="#owner">Owner</a>
+    <a href="#produk">Dagangan</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+<section id="owner">
+    <h2></h2>
+    <br>
+    <div class="owner">
+        <!-- GANTI FOTO OWNER -->
+        <img src="https://files.catbox.moe/n9un0f.jpg" alt="Owner">
+    </div>
+</section>
+
+<section id="produk">
+    <h2>Menu Dagangan</h2>
+    <br>
+    <div class="produk">
+
+        <div class="card">
+            <img src="https://files.catbox.moe/5jlvhy.jpg">
+            <h3>Produk 1</h3>
+            <p>open jastip 
+trip pku to sungai apit
+dan siak to sungai apit
+menerima jastip makan, barang-barang dan lain lain 
+
+harga sesuai barang dan makanan belum termasuk ongkir</p>
+            <span></span>
+            <a href="https://wa.me/6285182760515?text=kak+mau+beli+jastip+kak">Pesan via WhatsApp</a>
+        </div>
+
+        <div class="card">
+            <img src="https://files.catbox.moe/l1dg1n.jpg">
+            <h3>Produk 2</h3>
+            <p>open Joki tugas 
+lagi cape, malas, dan mager buat mgerjain tugas? FYST joki tugas sungai apit ada untuk membantu menyelasikan semua masalah mu 
+serahkan aja ke FYST joki tugas sungai apit
+
+harga tertera di pricelist.</p>
+            <span></span>
+            <a href="https://wa.me/6285182760515?text=kak+mau+pesan+joki+tugas+kak">Pesan via WhatsApp</a>
+        </div>
+
+        <div class="card">
+            <img src="https://files.catbox.moe/t0ylh8.jpg">
+            <h3>Produk 3</h3>
+            <p>open sewa IP
+mau liburan tapi ga pernah bisa dapet hasil foto dan dokumentasi yg astetic karna kamera burik? cape nabung tapi uang selalu ga cukup beli ip?
+SEWA AJA
+kenapa cape nabung klo kalian bisa sewa ip di amanda online shope?
+ayok cek pricelist
+dan abadikan moment berhagamu</p>
+            <span></span>
+            <a href="https://wa.me/6285182760515?text=Kak+saya+mau+mesan+ip">Pesan via WhatsApp</a>
+        </div>
+
+        <div class="card">
+            <img src="https://files.catbox.moe/8rio1c.jpg">
+            <h3>Produk 4</h3>
+            <p>open prelove
+mau beli baju baru tapi baju di lemari udah numpuk 
+mau dibuang sayang karna masih bagus dan layak pakai 
+Prelovedin aja 
+di amandaonlineshope sungai apit
+tempat kalian bisa jual dan beli pakaian yg masih bagus banget kualitasnya 
+solusi pengen baju baru dan ngurangin isi lemari terselesaikan bersama amandaonlineshope sungai apit
+
+harga cek pricelist</p>
+            <span></span>
+            <a href="https://wa.me/6285182760515?text=Kak+mau+nanya">Pesan via WhatsApp</a>
+        </div>
+
+        <div class="card">
+            <img src="https://files.catbox.moe/n9un0f.jpg">
+            <h3>Produk 5</h3>
+            <p>butuh sesuatu tapi bingung mau beli dimana?
+mau beli tapi ongkirnya selangit?
+amanda olshope sungai apit hadir dan menerima request pesanan barang  apapun kebutuhan kalian
+di jamin gratis ongkir 
+apapun kebutuhan mu 
+cari saja di amandaonlineshope sungai apit
+
+harga boleh dm langsung</p>
+            <span></span>
+            <a href="https://wa.me/6285182760515?text=Mau+order+jastip+kak">Pesan via WhatsApp</a>
+        </div>
+
+    </div>
+</section>
+
+<section id="kontak">
+    <h2>Kontak & Sosial Media</h2>
+    <br>
+    <div class="sosial">
+        <a href="https://wa.me/6285182760515">📱 WhatsApp : 0851-8276-0515</a>
+        <a href="https://instagram.com/https://amandahijabfashion">📸 Instagram : @amandahijabfashion</a>
+        <a href="https://tiktok.com/@racunshop339">🎵 TikTok : @racunshop339</a>
+    </div>
+</section>
+
+<footer>
+    © 2026 AMANDA ONLINE SHOPE SUNGAI APIT | All Rights Reserved
+</footer>
+
+</body>
+</html>
